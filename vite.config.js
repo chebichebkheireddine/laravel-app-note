@@ -16,8 +16,8 @@ export default defineConfig({
         strictPort: true,
         cors: true,  // Simplified CORS
         hmr: {
-            host: '10.58.3.66',
+            host: '10.58.3.67',
         },
-        allowedHosts: ['khiro', 'localhost', '10.58.3.66'],
+        allowedHosts: ['chebichebkhiro', 'localhost', '10.58.3.67'],
     },
 });

@@ -1,4 +1,4 @@
-<div class="flex flex-wrap items-center justify-center space-x-2 text-sm text-gray-500 font-medium bg-white py-2 px-4 border border-gray-200 rounded-3xl"
+<div class="flex flex-wrap items-center justify-center space-x-2 text-sm text-gray-500 font-medium bg-blue-100 py-2 px-4 border border-gray-200 rounded-3xl  dark:bg-slate-800 dark:border-gray-700 dark:text-gray-300"
     dir="rtl">
 
     <a href="{{ route('home') }}" class="flex items-center gap-1 hover:text-purple-400">
