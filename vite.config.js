@@ -8,11 +8,16 @@ export default defineConfig({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true,
         }),
-        tailwindcss(),
+        tailwindcss(),  // Keep only this - remove PostCSS section
     ],
     server: {
-        watch: {
-            ignored: ['**/storage/framework/views/**'],
+        host: '0.0.0.0',
+        port: 5173,
+        strictPort: true,
+        cors: true,  // Simplified CORS
+        hmr: {
+            host: '10.58.3.66',
         },
+        allowedHosts: ['khiro', 'localhost', '10.58.3.66'],
     },
 });
